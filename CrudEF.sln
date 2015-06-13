@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudEF.Entities", "CrudEF.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudEF.ConsoleViewApp", "CrudEF.ConsoleViewApp\CrudEF.ConsoleViewApp.csproj", "{60FB7277-C71F-4635-8AE4-F3B660461769}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptSQL", "ScriptSQL", "{8D72556C-23E8-4114-938B-F19A632852F4}"
+	ProjectSection(SolutionItems) = preProject
+		ScriptDBSQL\ScriptCreateDatabase.sql = ScriptDBSQL\ScriptCreateDatabase.sql
+		ScriptDBSQL\ScriptCreateTable.sql = ScriptDBSQL\ScriptCreateTable.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

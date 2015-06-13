@@ -56,8 +56,9 @@ namespace CrudEF.ConsoleViewApp
             //CustomerBL.GetInstance().DeleteCustomer(currentCustomerDelete2.CustomerID);
             #endregion
             #region Read
-            //List<Customer> listOfCustomers = CustomerBL.GetInstance().GetAllCustomers();
-            //foreach (var customer in listOfCustomers) {
+            List<Customer> listOfCustomers = CustomerBL.GetInstance().GetAllCustomers();
+            //foreach (var customer in listOfCustomers)
+            //{
             //    Console.WriteLine(customer.FirstName + customer.LastName);
             //}
             #endregion
