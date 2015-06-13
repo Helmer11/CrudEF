@@ -18,17 +18,18 @@ namespace CrudEF.ConsoleViewApp
         public static void Main(string[] args)
         {
             #region Create 
-            //var customer1 = new Customer() {
+            //var customer1 = new Customer()
+            //{
             //    FirstName = "Jorge Luis",
-            //    LastName ="Guzman S.",
+            //    LastName = "Guzman S.",
             //    Email = "JLGSHK@hotmail.com",
-            //    Birthday = new DateTime(1986,09,15)
+            //    Birthday = new DateTime(1986, 09, 15)
             //};
             //var customer2 = new Customer()
             //{
             //    FirstName = "Jean Carlos",
             //    LastName = "Guzman SV.",
-            //    Birthday = new DateTime(2013, 10,31)
+            //    Birthday = new DateTime(2013, 10, 31)
             //};
             //Console.WriteLine("Insert into database....");
             //CustomerBL.GetInstance().AddCustomer(customer1);
@@ -40,7 +41,7 @@ namespace CrudEF.ConsoleViewApp
             //Console.WriteLine("Update a Customer");
             //CustomerBL.GetInstance().UpdateCustomer(currentCustomer);
             //var currentCustomer2 = CustomerBL.GetInstance().GetCustomerByID(2);
-            //currentCustomer2.LastName = "Guzman V."; 
+            //currentCustomer2.LastName = "Guzman V.";
             //Console.WriteLine("Update a Customer");
             //CustomerBL.GetInstance().UpdateCustomer(currentCustomer2);
             #endregion
